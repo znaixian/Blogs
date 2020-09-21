@@ -80,5 +80,7 @@ ax.set_xticklabels(
     horizontalalignment='right'
 );
 ```
+Factor Return demonstrated as 
+![demo](https://github.com/znaixian/Blogs/blob/master/Contemporary/factor%20return.png?raw=True)
 
 
