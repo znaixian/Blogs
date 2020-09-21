@@ -1,5 +1,8 @@
 # Blogs
 
+## Contemporary 
+### Inflation Hedging Strategy from MSCI
+
 ## Industry
 ### Business Services
 
