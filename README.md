@@ -11,6 +11,8 @@
     
   * Energy
   * Finance
+    * Cryptocurrency Trading and Exchanges
+    
   * Healthcare
   * Industrials
   * Technology
