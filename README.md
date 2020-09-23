@@ -6,6 +6,15 @@
 
 ## Industry
   * Business Services
+  * Consumer
+    * Internet Department Store
+    
+  * Energy
+  * Finance
+  * Healthcare
+  * Industrials
+  * Technology
+  * Utilities
 
 
 ## REITs
