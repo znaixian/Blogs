@@ -1,6 +1,6 @@
 It was published on [seekingalpha](https://seekingalpha.com/article/3970597-seattle-genetics-now-is-good-time-to-buy)
 
-*Summary*
+**Summary**
 
 Allocating a proportion of investment capital into risky assets is necessary strategy in a comprehensive life financial plan. Seattle Genetics, Inc. (NASDAQ: SGEN) is one of these good bets.
 
@@ -31,3 +31,7 @@ What's worth worrying about is the risk of possible negative clinical developmen
 Above cons are significant negative risk factors that we need think through while assessing fully both the company profile and our risk tolerance before putting money into SGEN. These concerns are similar if not greater than those an investor would have faced when Amgen and Gilead were small. Reference the gigantic revenue gains brought on by those entering monoclonal antibody (MAB) products - Avastin, Herceptin, Humira, Remicade, and Rituxan, the ADC therapeutics could be very close followers in the near future.
 
 Lastly, with such a solid and clear strength in ADC niche, SGEN certainly is a charming acquisition target currently under the radar of larger players in the market. Buying shares at current lay-low time period is a good opportunity for this future play.
+
+About 5 years later now September 2020, look at the splendid performance of SGEN, the 5-year average price return is 33%. 
+
+
