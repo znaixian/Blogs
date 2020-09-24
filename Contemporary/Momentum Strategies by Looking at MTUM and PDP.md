@@ -48,3 +48,6 @@ MTUM came to market much later than PDP (2013 vs. 2007), but has since double th
 Take a deep look into their holdings, MTUM has 120, while PDP contains 100 constituents, the funds hold only 22 companies in common, which is only about a 20% overlapping rate. And the discrepancy between the two is a clear indication to investors that even both names indicate that they are “momentum” funds, their construction is vastly different.
 
 Below is a performance comparison. You can see that MTUM outperformed PDP within the same comparable time period. In conjunction with the two reasons I described above - MTUM's expense ratio is only a quarter that of PDP's and MTUM's methodology to compute momentum score is much more transparent than that of PDP, I highly recommend MTUM for investors who want to ride the momentum wave.
+
+Replot the charts starting from April 2013, when MTUM was launched, it actually is quite similar to PDP, and both under performed comapred to SPY.
+![mtum pdp performance since 2013](https://github.com/znaixian/Research/blob/master/Contemporary/spy%20mtum%20and%20pdp%20starting%20from%20mtum%20inception%20date.png)
