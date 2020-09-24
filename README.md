@@ -14,6 +14,7 @@
     * [Cryptocurrency Trading and Exchanges](https://github.com/znaixian/Research/blob/master/Industry/Cryptocurrency%20Trading%20and%20Exchanges.md)
     
   * Healthcare
+    * [Seattle Genetics](https://github.com/znaixian/Research/blob/master/Industry/Seattle%20Genetics%20Good%20Time%20To%20Buy(2016).md)
   * Industrials
   * Technology
   * Utilities
