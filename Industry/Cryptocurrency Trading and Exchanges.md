@@ -33,8 +33,9 @@ BTCS, Inc. is a publicly traded company based in the US, whose stated line of bu
 
 Skimming through above companies, I notice at least three are based in Vancouver Canada, and two are converted from other failed business. Interesting."
 
-Now what's intersting is to look at them two years later. It's a very good sign if the initial feverish favorite is still favored by the market. Apparently they are all extremely volatile without a good ending, using First Bitcoin Capital Corp. (BITCF-US) as an example, see ![its performance in the past years](https://github.com/znaixian/Research/blob/master/Industry/media/bITCS%20bitcoin%20concept.png)
-as an example, see ![its performance in the past years](https://github.com/znaixian/Research/blob/master/Industry/media/bITCS%20bitcoin%20concept.png)
+Now what's intersting is to look at them two years later. It's a very good sign if the initial feverish favorite is still favored by the market. Apparently they are all extremely volatile without a good ending, using First Bitcoin Capital Corp. (BITCF-US) as an example, see 
+
+![its performance in the past years](https://github.com/znaixian/Research/blob/master/Industry/media/bITCS%20bitcoin%20concept.png)
 
 This reinforced my long-term skepiticism on Bitcoin investment. 
 
