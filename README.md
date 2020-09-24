@@ -11,7 +11,7 @@
     
   * Energy
   * Finance
-    * Cryptocurrency Trading and Exchanges
+    * [Cryptocurrency Trading and Exchanges](https://github.com/znaixian/Research/blob/master/Industry/Cryptocurrency%20Trading%20and%20Exchanges.md)
     
   * Healthcare
   * Industrials
