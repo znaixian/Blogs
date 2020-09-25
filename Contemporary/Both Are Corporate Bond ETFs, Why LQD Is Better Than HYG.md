@@ -16,7 +16,7 @@ We can see that LQD has attracted more than doubled HYG's AuM, even both funds w
 
 What really matters is the performance, so let's take a look at their total return in the past 15-years (chart plot was from Chart ETF Returns & Volatility - ETFreplay, now switch). The two are highly correlated except during and after the financial crisis. Volatility, however, really differentiated LQD and HYG. To achieve a similar return, LQD investors don't have to assume as high risk as HYG holders (5.2% opposed to 6.4%).
 
-![performance]()
+![performance](https://github.com/znaixian/Research/blob/master/Contemporary/lqd%20and%20hyg.png)
 Staring at these numbers superficially is not sufficient, we'd better dive deeper to understand how these two funds are formed and managed. 
 To do so, we need to decode the underlying indexes of the two ETFs.
 
