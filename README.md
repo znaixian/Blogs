@@ -23,6 +23,8 @@
 
 
 ## REITs
+ * [REITs in the US.]()
+ 
 
 ## China Theme
 
