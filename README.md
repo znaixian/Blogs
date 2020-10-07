@@ -27,6 +27,7 @@
  
 
 ## China Theme
+  * [China Theme ETFs](https://github.com/znaixian/Research/blob/master/China%20Theme%20ETFs.md)
 
 ## Technology Innovation
 
