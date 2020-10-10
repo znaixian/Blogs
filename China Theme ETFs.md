@@ -50,19 +50,19 @@ I filtered out the top 10 companies listed in Shenzhen (SHE), Shanghai(SHG) and 
 
 Shengzhen market is sort of like Nasdaq, with more Consumer, Technology, Industrials in the bucket. The highest is alcohol producer Wuliangye with the market value at below $200B size.
 
-![chart of shenzhen](../Research/pictures/shenzhen_exchange.png)
+![chart of shenzhen](https://github.com/znaixian/Research/blob/master/pictures/shenzhen_exchange.png?raw=true)
 
 Shanghai market which is established earlier than Shenzhen, supposedly listing lots of state-owned companies. Other than the top Maotai company, the rest are dominated by banks, insurance, security, construction companies. The market size of Maotai is on a higher scale above $300 billion while the rest are on par with those at SHE. This is well expected because large amount of profits are reaped by the government selling land, then building infrastructure, meanwhile, currency is locked from free trading, hence trillions of dollars are stored by the treasury, while massive amount of RMB is out and counted in banks, insurance, securities, infrastructure companies.
 
-![shanghai chart](../Research/pictures/shanghai_exchange.png)
+![shanghai chart](https://github.com/znaixian/Research/blob/master/pictures/shanghai_exchange.png?raw=true)
 
 So where are the rapidly growing internet tech companies? They went abroad. Mammoth in Hongkong stock exchange are as below table, clearly Chinese companies are dominant. High tech Alibaba, Tencent are among them, and what’s more, the scale of them are 3-fold than that of domestic market, with Alibaba and Tencent listed at over $600 Billion.
 
-![hongkong chart](../Research/pictures/hongkong_exchange.png)
+![hongkong chart](https://github.com/znaixian/Research/blob/master/pictures/hongkong_exchange.png?raw=true)
 
 I would also like to take a look at Chinese ADRs. There are over 40 such ADRs with Pinduoduo leading the race, sizing significantly smaller than Tencent and Alibaba yet (1/10) at $57 billion. But there is huge potential to grow.
 
-![adr](../Research/pictures/ADRschina.png)
+![adr](https://github.com/znaixian/Research/blob/master/pictures/ADRschina.png?raw=true)
 
 Overall, in the past years, Chinese stock market is less favored by local investors due to government’s directing capital to RE and lots of capital depositing at banks energy companies, that normal investors are not able to really share the growth, on the other hand, stellar companies went abroad listing in HKG and American market, so the growth were gleaned by foreign investors.
 
