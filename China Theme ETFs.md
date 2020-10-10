@@ -37,3 +37,18 @@ While KBA even it also contains a large list, it is more China (meaning stocks a
 - Luxshare Precision Industry Co. Ltd. Class A1.12%
 
 Worthnoting, KBA has 87% overlapping with MCHI.
+
+Before investing real money into this kind of ETFs, you would naturally also raise a question, China’s economy has been booming in the last 40 years like a miracle, but Why Didn’t the Chinese Stock Market Go Up Like the GDP?
+See below the GDP growth chart:![](https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions)
+
+Even US’s GDP is leading far ahead but the acceleration rate is clearly smaller than China and in no time, China’s GDP will surpass the United States’.
+
+Along the way, Chinese people’s income also grow rapidly. However, what’s interesting to observe is that the Real Estate market and stock market are growing in very dis-proportionally pace with clear bubble in over heated RE market, while stock market relatively flat in last 40 some years. Why so?
+
+There are multiple version of answers on Quora, but I think it has to be viewed and interpreted from the uniqueness of China, which essentially is not a true capitalism but one party enforcing a capitalism like game.
+
+I filtered out the top 10 companies listed in Shenzhen (SHE), Shanghai(SHG) and Hongkong(HKG) markets.
+
+Shengzhen market is sort of like Nasdaq, with more Consumer, Technology, Industrials in the bucket. The highest is alcohol producer Wuliangye with the market value at below $200B size.
+
+
