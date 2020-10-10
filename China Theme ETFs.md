@@ -38,8 +38,7 @@ While KBA even it also contains a large list, it is more China (meaning stocks a
 
 Worthnoting, KBA has 87% overlapping with MCHI.
 
-Before investing real money into this kind of ETFs, you would naturally also raise a question, China’s economy has been booming in the last 40 years like a miracle, but Why Didn’t the Chinese Stock Market Go Up Like the GDP?
-See below the GDP growth chart:![](https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions)
+Before investing real money into this kind of ETFs, you would naturally also raise a question, China’s economy has been booming in the last 40 years like a miracle, but Why Didn’t the Chinese Stock Market Go Up Like the [GDP](https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions)?
 
 Even US’s GDP is leading far ahead but the acceleration rate is clearly smaller than China and in no time, China’s GDP will surpass the United States’.
 
@@ -51,4 +50,28 @@ I filtered out the top 10 companies listed in Shenzhen (SHE), Shanghai(SHG) and 
 
 Shengzhen market is sort of like Nasdaq, with more Consumer, Technology, Industrials in the bucket. The highest is alcohol producer Wuliangye with the market value at below $200B size.
 
+![chart of shenzhen](../Research/pictures/shenzhen_exchange.png)
 
+Shanghai market which is established earlier than Shenzhen, supposedly listing lots of state-owned companies. Other than the top Maotai company, the rest are dominated by banks, insurance, security, construction companies. The market size of Maotai is on a higher scale above $300 billion while the rest are on par with those at SHE. This is well expected because large amount of profits are reaped by the government selling land, then building infrastructure, meanwhile, currency is locked from free trading, hence trillions of dollars are stored by the treasury, while massive amount of RMB is out and counted in banks, insurance, securities, infrastructure companies.
+
+![shanghai chart](../Research/pictures/shanghai_exchange.png)
+
+So where are the rapidly growing internet tech companies? They went abroad. Mammoth in Hongkong stock exchange are as below table, clearly Chinese companies are dominant. High tech Alibaba, Tencent are among them, and what’s more, the scale of them are 3-fold than that of domestic market, with Alibaba and Tencent listed at over $600 Billion.
+
+![hongkong chart](../Research/pictures/hongkong_exchange.png)
+
+I would also like to take a look at Chinese ADRs. There are over 40 such ADRs with Pinduoduo leading the race, sizing significantly smaller than Tencent and Alibaba yet (1/10) at $57 billion. But there is huge potential to grow.
+
+![adr](../Research/pictures/ADRschina.png)
+
+Overall, in the past years, Chinese stock market is less favored by local investors due to government’s directing capital to RE and lots of capital depositing at banks energy companies, that normal investors are not able to really share the growth, on the other hand, stellar companies went abroad listing in HKG and American market, so the growth were gleaned by foreign investors.
+
+However looking forward, the capital will move back to stock market, good companies such as Pingduoduo or Alibaba Xiaomi Nio listed off shore will keep growing. That’s why Ray Dalio is deploying big betting on both Chinese and American markets. His positions on the following ETFs reflects his view of world-wide economic prospect.
+   - VWO – Vanguard FTSE Emerging Markets ETF
+   - VEA – Vanguard FTSE Developed Markets ETF
+   - EFA – iShares MSCI EFAE ETF
+   - MCHI – iShares MSCI China ETF
+   - FXI – iShares China Large-Cap ETF
+   - IAU – iShares Gold Trust ETF
+
+About China, I also researched the dividend stocks and potential REITs lauching in another blog.
