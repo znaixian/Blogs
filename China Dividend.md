@@ -2,9 +2,9 @@
 
 It always puzzled me that Chinese economy has been booming in the last four decades, GDP has been growing by average of two digits pace. However, you hardly heard that most people have made huge profit in the A share market, on the other hand, anyone jumped in the real estate market in time almost all reaped in great amount of fortune, advancing themselves into solid middle class.
 Take a look at the total number and market size of stocks in SHE(shenzhen) and SHG (shanghai) exchanges. 
-![number](../Research/pictures/number%20of%20a%20shares.png?raw=true)
+![number](https://github.com/znaixian/Research/blob/master/pictures/number%20of%20a%20shares.png?raw=true)
 
-![marketsize](../Research/pictures/Total%20market%20cap%20in%20she%20and%20shg.png?raw=true)
+![marketsize](https://github.com/znaixian/Research/blob/master/pictures/Total%20market%20cap%20in%20she%20and%20shg.png?raw=true)
 
 We can obtain a quick feel by comparing the major indexes for chines market and American market represented by CSI300 for China and S&P500 for the U.S. in the last 15 years.
 
@@ -20,7 +20,7 @@ First of all, let’s take a look if there any such kind of developed indexes/fu
 
 MSCI has launched “MSCI China A Onshore High Dividend Yield Index” in 2009. The methodology is not obtainable unless inquiry is submitted. According to their marketing pdf, ” The MSCI China A Onshore High Dividend Yield Index is based on the MSCI China A Onshore Index, its parent index, and includes large and mid cap stocks across China securities listed on the Shanghai and Shenzhen exchanges. The index is designed to reflect the performance of equities in the parent index (excluding REITs) with higher dividend income and quality characteristics than average dividend yields that are both sustainable and persistent. The index also applies quality screens and reviews 12-month past performance to omit stocks with potentially deteriorating fundamentals that could force them to cut or reduce dividends.”, testified by their performance as shown below. By the way, the metrics indicates the index’s average dividend yield as of Oct 2019 is 3.65%, the annualized return in last 10 years is 60.9%, in last 5 years is 10%.
 
-![china a onshore dividend](../Research/pictures/msci%20china%20onshore%20dividend.png)
+![china a onshore dividend](https://github.com/znaixian/Research/blob/master/pictures/msci%20china%20onshore%20dividend.png?raw=true)
 
 Each MSCI High Dividend Yield Index targets companies with high dividend income and quality characteristics and includes companies that have higher than average dividend yields that are both sustainable and persistent. Index construction starts with a dividend screening process: only securities with a track record of consistent dividend payments and with the capacity to sustain dividend payouts into the future are eligible index constituents. Securities are also screened based on certain “quality” factors such as return on equity (ROE), earnings variability, debt to equity (D/E), and on recent 12-month price performance. The goal is to exclude stocks with potentially deteriorating fundamentals that could be forced to cut or reduce dividends. From the list of eligible companies, only those with higher than average dividend yields are selected for inclusion in the index. Issuer weights are capped at 5%. The index is market cap weighted and rebalanced semi-annually in May and November.” There are 85 holdings as of present (Nov2019) and the dividend yield on average is about 4%.
 
@@ -35,7 +35,7 @@ Rank all by compscore, choose top 30. Equal weighted, and backtested ;
 
 Also use top 30 portfolio, do dividend based weighting, and backtested.
 
-![my dividend portfolio](../Research/pictures/china-dividend-top-30-ew-9-years.png)
+![my dividend portfolio](https://github.com/znaixian/Research/blob/master/pictures/china-dividend-top-30-ew-9-years.png?raw=true)
 
 Compared to the rival product MSCI High Dividend Yield Index returns only about 6% in a 10-year time frame, this prototype is better.
 
