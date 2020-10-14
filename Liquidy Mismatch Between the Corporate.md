@@ -8,11 +8,11 @@ Published as a working paper “ETF arbitrage under liquidity mismatch” in Dec
 
 In this paper, a summary statistics is cited below, for the panel of corporate bond ETFs at a daily frequency from April 2004 to April 2016, containing 33 ETFs, ETF-level data is obtained from Bloomberg; liquidity measures are constructed using bond-level transaction data from FINRA TRACE; ETF portfolio holdings data is from Bloomberg; short cost data for ETFs and the basket of corporate bonds held by ETFs are constructed from Markit Securities Finance Analytics.
 
-![summary](../Research/pictures/etf-pricing-summary.png)
+![summary](https://github.com/znaixian/Research/blob/master/pictures/etf-pricing-summary.png?raw=true)
 
 The approach this paper takes to check AP’s lack of actions on ETF abitrage when needed is to run an OLS regression with dependent value – AP arbitrage activity – proxied for by the percentage change in daily ETF shares outstanding and independent value – level of liquidity mismatch – proxied for by using several corporate bond market effective spread measures.
 
-![summary2](../Research/pictures/regression.png)
+![summary2](https://github.com/znaixian/Research/blob/master/pictures/regression.png?raw=true)
 
 The paper is thoroughly researched with analysis on each of these impacts: Impact of VIX on AP Arbitrage; Impact of Bond Illiquidity on AP Arbitrage; Asymmetry in AP Arbitrage and the Impact of Short Costs; Impact of APs’ Corporate Bond Imbalances on AP Arbitrage. Thusly the conclusion is convincing and clear. However, based upon such acute analysis, in the end paragraph, they call for a need of careful policy examinations, which I tend to disagree.
 
