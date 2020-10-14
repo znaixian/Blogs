@@ -1,0 +1,19 @@
+# Liquidy Mismatch Between the Corporate Bond ETFs and the Underlying Securities Can Cause Mispricing
+
+ETF gains tremendous favor from investors because of its liquid tradability much-resembling stock exchanging. However, there is a fundamental difference between the two with respect to the trading mechanism. The stock issuer is a company and the number of shares outstanding is very restricted in the time of IPO or subsequent times of issues; but for ETF, there are both fund issuers and broker-dealer/authorized participants (APs) jointly play a vital role in providing shares to trade in the secondary market.
+
+Dependent on the demand and supply of the ETF in the market, the APs are supposed to create or eliminate ETF shares by a creation/redemption activity with fund issuer. Moreover, what’s unique in this ETF broker-dealer role is that the APs are also the ETF arbitrager – at the end of each trading day, APs will short the ETF portfolio and long the underlying  ETF holdings the net asset value (NAV) of the ETF is at premium relative to its underlying securities value, vice versa. Therefore, the NAV of ETF fluctuates along the portfolio’s underlying value intraday, but won’t divert extraordinary over a long time period.
+
+Published as a working paper “ETF arbitrage under liquidity mismatch” in December 2017, Kevin Pan and Yao Zeng concluded that there exists a significant liquidity mismatch between the ETF and corporate bond market, and not obligated by law to assume the arbitrager role in ETF unit creation/redemption, the APs may strategically refrain from doing so, especially for those with large liquidity mismatch, resulting in even larger price discrepancies. The authors provide substantial evidence to back up their observation.
+
+In this paper, a summary statistics is cited below, for the panel of corporate bond ETFs at a daily frequency from April 2004 to April 2016, containing 33 ETFs, ETF-level data is obtained from Bloomberg; liquidity measures are constructed using bond-level transaction data from FINRA TRACE; ETF portfolio holdings data is from Bloomberg; short cost data for ETFs and the basket of corporate bonds held by ETFs are constructed from Markit Securities Finance Analytics.
+
+![summary](../Research/pictures/etf-pricing-summary.png)
+
+The approach this paper takes to check AP’s lack of actions on ETF abitrage when needed is to run an OLS regression with dependent value – AP arbitrage activity – proxied for by the percentage change in daily ETF shares outstanding and independent value – level of liquidity mismatch – proxied for by using several corporate bond market effective spread measures.
+
+![summary2](../Research/pictures/regression.png)
+
+The paper is thoroughly researched with analysis on each of these impacts: Impact of VIX on AP Arbitrage; Impact of Bond Illiquidity on AP Arbitrage; Asymmetry in AP Arbitrage and the Impact of Short Costs; Impact of APs’ Corporate Bond Imbalances on AP Arbitrage. Thusly the conclusion is convincing and clear. However, based upon such acute analysis, in the end paragraph, they call for a need of careful policy examinations, which I tend to disagree.
+
+Innovative products such as ETFs provide an alternative channel for less liquid, OTC traded bonds to be easier to trade for investors, making the whole market more liquid and competitive. If APs, for the consideration of implicit costs, refrain from arbitrage away the obvious price distortion between the NAV and the underlying Bond’s price, there will be other institutions or individuals enter into the secondary market to capitalize on any mispricing opportunities unless it’s not a “true mispricing”.
