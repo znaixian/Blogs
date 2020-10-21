@@ -34,6 +34,7 @@
 
 ## Bond Index and ETF
   * [Liquidy Mismatch Between the Corporate Bond ETFs and the Underlying Securities Can Cause Mispricing](https://github.com/znaixian/Research/blob/master/Liquidy%20Mismatch%20Between%20the%20Corporate.md)
+  * [China Bond ETFs]()
 
 ## Graph Theory
     
@@ -49,4 +50,7 @@
   * 宇称不守恒到底说了啥？杨振宁和李政道的发现究竟有多大意义?
   * 杨-米尔斯理论说了啥？为什么说这是杨振宁超越他诺奖的贡献？
   
-  
+  ## Law of Human Behavior
+    * needs based understanding
+    * facts vs. opinions
+    *  
