@@ -15,6 +15,23 @@
   * Finance
     * [Cryptocurrency Trading and Exchanges](https://github.com/znaixian/Research/blob/master/Industry/Cryptocurrency%20Trading%20and%20Exchanges.md)
     
+    * Insurance
+    MIT prof.Gary Gensler put out a course on FinTech Disruptions, the new technologies are disrupting the financial services industry—driving material change in business models, products, applications and customer user interface. Amongst the significant technological trends affecting financial services into the 2020’s, the class will explore AI, deep learning, blockchain technology and open APIs. Students will gain an understanding of the key technologies, market structure, participants, regulation and the dynamics of change being brought about by FinTech.
+    It's break down is
+    - AI and ML
+    - AI in Finance
+    - Open API and marketing chaneels
+    - Blockchain & Crypotocurrencies
+    - Payments
+    - Credit and Lending
+    - Challenger Banks
+    - Trading and Capital Markets
+    - Insurance
+      ![](.research/pictures/../../pictures/insurtech%20emerging%20techniques.png)
+
+    - Coronavirus and Finance
+
+
   * Healthcare
     * [Seattle Genetics](https://github.com/znaixian/Research/blob/master/Industry/Seattle%20Genetics%20Good%20Time%20To%20Buy(2016).md)
   * Industrials
@@ -203,7 +220,16 @@ In contrast, an n-ary tree will require log_2(n) comparisons (using a binary sea
 ## Introduction to Cryptography (https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
 
 ## MIT 6.006 Introduction to Algorithms, Fall 2011 (https://www.youtube.com/watch?v=Zc54gFhdpLA&list=PLft0IIgWjn_HodQ4pGMsBWcMsG5ri5ufx)
-- algorithm thinking - peak finding
+- algorithm thinking - peak finding, there are all kinds of algorithms
+  - Kadane's algorithm to find the max substring in a string of numbers
+    O(n) approach rather than brute-force one
+    ![](.research/pictures/../../pictures/kadane%20algo.png)
+    then it's further applied to solve Maximum Sum Rectangular Submatrix in Matrix
+  - System Design Parking lot system design problem (object oriented approach) design patterns (top-down and bottom-up)  
+  
+
+
+
 - sorting & trees(binary trees)  - event simulation, sorting has wide application: data compression, sort and find duplicates, find the word and frequency respectively
 computer graphics
   - insertion sorting, then binary insertion sorting and merge sort (binary insertion sort employs a binary search to determine the correct location to insert new elements, and therefore performs ⌈log2 n⌉ comparisons in the worst case, which is O(n log n). The algorithm as a whole still has a running time of O(n2) on average because of the series of swaps required for each insertion.)
@@ -242,12 +268,37 @@ computer graphics
 
   In blockchain technology, hash function is applied: Genesis blcok with unique hash, then add it to the new block, repeat on and on.
 
+  In actually coding, when we need to have a condition on whether the key is available, a naice way like below is not optimal:
+  ![](.research/pictures/../../pictures/if%20contain%20key%20then%20get%20key.png)
+  The optimal - speed-up way is
+  ![](.research/pictures/../../pictures/faster%20directly%20grab%20key%20value.png)
+
 
 - numerics - RSA encryption
 
 - graphs - rubik's cube
+  grapth algorithm by Tushar
+  prerequisite knowledge - binary heap 
+  - computer logic
+  ![](pictures/exclusive%20or%20logic.png)
+  - what is binary heap
+  - bloom filter 
+  - Dekker's Algorithm dealing with the race condition
+  - pagerank algorithm employ random surfer model, and there is a damping factor 85% will stay on the random, then switch to other sets of pages
+  - 
+
+
+
+  1. A topological sort for a DAG is a linear ordering of vertices such that for every directed edge (u, v), vertex u comes before v in the ordering. Directed acyclic graphs are used in many applications to indicate the precedence of events. The steps are illustrated as 
+  ![](.research/pictures/../../pictures/topological%20sort%20illustration.png) 
+
+  2. Prim's Algorithm Minimum Spanning Tree Graph Algorithm
+  3. Kruskal's algorithm Minimum Spanning Tree Graph Algorithm
+  4. 
+   
 
 - shortest path - caltech to MIT
+  1. Dijkstra's algo single source shortest path graph algo
 
 - dynamic programming - design technique bottom up applied on image compression
 
@@ -297,7 +348,92 @@ Rings: an algebraic view on modular arithmetic
   * simple concepts such as Euclid, Manhatton, Cosine and Jaccid similarities 
   * AI based semantic similarity analysis
   * NLP
-  * Netflix recommending system two algorithms
+  * Netflix recommending system
+  1. Research Paper Recommendation System for Netflix, authored by Leidy Esperanza Molina and Prof.Dr.Sandjai Bhulai.
+  
+  There are many algorithms to perform recommendation system, for instance, popularity, collaborative filtering, content-based filtering, hybrid approaches.
+
+  Popularity is straightforward. 
+  
+  Collaborative filtering(CF) algorithms are based on the idea that users with similar rating history tend to behave consistently in the future. Based on information about similar users or similar items, the CF could be classified into two different approaches: 
+  - Memory-based techniques 
+    - user based collaborative filtering
+      There is a wide variety of metrics to compare similarity between vectors or to find the closest neighbor (in our case users). The most popular are Cosine Similarity or Pearson Correlation
+      for example, for the following matrix of users and products
+      ![users and products](.research/pictures/../../pictures/product%20user%20matrix.png) 
+      ![](pictures/cosine%20similarity%20.png)
+  
+    - item based collaborative filtering
+      It is quite similar to user based collaborative filtering except the underlying object is not user but movie
+
+  - Model-based techniques.
+    Model-based technique is different than Memory-ased technique in the sense that it aims to build a model to improve the results of CF and find patterns in data. Model-based techniques are based on Matrix factorization (MF), an unsupervised learning method for dimensionality reduction. By the way, there are multiple traditional ways to perform dimensionality reduction such as Principal Component Analysis (PCA), Singular Value Decomposition (SVD), Probabilistic Matrix Factorization (PMF), Matrix completion Technique, Latent Semantic methods, and Regression and Clustering (Isinkaye, Folajimi, and Ojokoh, 2015)
+
+  - Content-based(CB) filtering
+    It not only considers similarity by rating but also learns the user preferences, and then locate or recommend items that are "similar" to the user preferences, i.e. content-based.
+    The data must be structured, where each item is described by the same set of attributes in the form of a feature vector y. The core of this approach is to create a model of the user’s preferences based on those feature vectors.Techniques are applications of information retrieval such as Term Frequency (TF) or Inverse Document Frequency (IDF) (Salton, 1989), and some machine learning techniques including Naive Bayes, support vector machine, decision trees, among others.
+    Common problems such as "cold start problem" and "popularity bais problem" in CF will no long be a big issue in CB
+
+    -  Term-Frequency - Inverse Document Frequency (TF - IDF)
+    -  Probabilistic methods Naive Bayes SVM Decision Trees
+
+
+  - Hybrid Approach
+    The hybrid methods are characterized by combining CF and CB techniques
+
+  2. LinkedIn course by Frank Kane (https://www.linkedin.com/learning/building-recommender-systems-with-machine-learning-and-ai/install-anaconda-review-course-materials-and-create-movie-recommendations?u=88123954)
+   
+    - Learning objectives
+      Top-N recommender architectures
+      Types of recommenders
+      Python basics for working with recommenders
+      Evaluating recommender systems
+      Measuring your recommender
+      Reviewing a recommender engine framework
+      Content-based filtering
+      Neighborhood-based collaborative filtering
+      Matrix factorization methods
+      Deep learning basics
+      Applying deep learning to recommendations
+      Scaling with Apache Spark, Amazon DSSTNE, and AWS SageMaker
+      Real-world challenges and solutions with recommender systems
+      Case studies from YouTube and Netflix
+      Building hybrid, ensemble recommenders
+    
+  ### Top-N recommeder architectures
+  Metric for top-n recommenders that accounts for the rank of predicted items - ARHR (average reciprocal hit rank). 
+  ![](.research/pictures/../../pictures/average%20reciprocal%20hit%20rank.png)
+  RecommenderMetrics.py
+
+  ### Recommender Engine Framework
+  AlgoBase contains SVD, KNNBasics, SVDpp and Custom
+
+  ### Content Based filtering
+  - content-based recommendations and the cosine similarity metric
+  equation on cosine similarity on multi-dimensions
+  ![](pictures/cosine%20similarity%20.png) versus
+  ![](pictures/multi-dimension%20cosine.png)
+  - K-nearest neighbors(knn) and content recs
+  - producing and evaluating content-based movie recommendations 
+  - bleeding edge alert: Mise-en-scene recommendations
+  - Diver deeper into content-based recommendations
+ 
+  ### Neighborhood-Based Collaborative Filtering
+
+  ### Matrix Factorization Methods
+  - PCA is a dimension reduction algorithm and Random Forest a feature ranker. PCA craete new features called principal components that are ranked based on the magnitude of variation. Dimension reduction is independent of the class label, although, feature ranking depends on the class type. It is intuitive that, for example, we choose people with strong legs for a running competition (class label), while the important feature for a boxer (class label) is having strong hands. So does the feature ranking algorithm.
+  
+  An eigenvector or characteristic vector of a linear transformation is a nonzero vector that changes by a scalar factor when that linear transformation is applied to it. The corresponding eigenvalue, often denoted by, is the factor by which the eigenvector is scaled.
+  - Singular value decomposition(SVD)
+
+
+  ### Spark Apache 
+
+  1. Another course which applies KNN, nearest neighbor ()
+
+
+
+
   * document similarity document distance 
     * basic concept can be visualized as below
     ![doc vector cosine distance](./research/pictures/../../pictures/document%20vector%20cosine%20distance.png)
@@ -311,6 +447,16 @@ Rings: an algebraic view on modular arithmetic
     * log(no of documents in teh a corpose/no of documents that contain the term) 
     * TF-IDF
     * 
+
+  ### upgrade from similar companies to related companies
+  - Because notion of similar companies is quite straightforward using classification system. We should not over complex the problem 
+  - The actual complex problem is to identify "related" companies that are inconspicous. For example, Uber and Lyft are not typical taxi companies but still allocated as such, Amazon and Pingduoduo are not in conventional retailing business but they are mapped to be peers to Macy's or Walmart. We need to come up with additional dimensions to define or depict these new relatedness.
+    - In above two examples, we can single out the layer or dimension of "infrastructure technology"; 
+    - EV concept can be employed by conventional car manufacturers. This layer of "technology" is similar to above item but worth listing our seperately as we can apply a systematic NLP sort of approach to identify them;
+    - For companies founded by same people such as Fiveer (crowdsourcing labor) and Lemonade (insurance), that's another layer;
+    - Common layers such as location, capital, number of employees are also considered.
+ 
+
 
 ## Interesting topic by Erik Demaine on Geometric Folding Algorithms 
 ## Leetcode codeforces
@@ -348,8 +494,8 @@ Rings: an algebraic view on modular arithmetic
 ## Physics
   * 微积分
     * https://mp.weixin.qq.com/s?__biz=MzIzODU2MzAyNg==&mid=2247484886&idx=1&sn=9f7f035c2051d8eb38546f20d91c027c&chksm=e9363e6bde41b77d6e89be56f1c4ebaf73b67d26488ff7d59c2061ff85c2d440ae311aa6d913&scene=178&cur_album_id=1337882199491936256#rd
+  * Algebra 
   * 麦克斯韦方程组（积分篇）
-  
   * 麦克斯韦方程组（微分篇）
   * 如何从麦克斯韦方程组推出电磁波？
   * 相对论前夜：牛顿和麦克斯韦的战争
