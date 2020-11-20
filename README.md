@@ -40,13 +40,46 @@
 
 
 ## REITs
- * [REITs in the US.]()
+ * [REITs in the US]()
  
 
 ## China Theme
   * [China Theme ETFs](https://github.com/znaixian/Research/blob/master/China%20Theme%20ETFs.md)
   * [China Dividend ETFs](https://github.com/znaixian/Research/blob/master/China%20Dividend.md)
+
+## Thailand Theme
+  On a higher level, Thailand SET (180532) serves as a broad benchmark for Thailand stock market. The performance in the past twenty years is as below. It has over 600 constituents.
+  ![](.research/../pictures/SET%20index%20.png)
+
+  BlackRock has constructed an ETF iShares MSCI Thailand ETF (THD) in 2008. It holds 112 stocks as of November 20, 2020. According to etf.com, "THD is the only pure Thai ETF and it's a good one. The fund tracks our broad Thai segment benchmark, making for a near perfect representation of the market. THD's sector splits are spot-on, with financials and energy taking up more than 1/2 of the portfolio. The Thai market is very concentrated, so investors should be mindful that representative exposure in Thai equities translates into high concentration risk. THD sees respectable daily trading activity across small spreads, though we still advise the use of limit orders. Creation or redemption of shares might cause movement in the underlying market, however. THD charges a somewhat high fee for a single-country fund, but tracking is very tight and securities lending recaptures some of that expense for investors. Overall, THD is the place to go for exposure to Thailand." The performance of THD is highly correlated to however lackluster compared to SET benchmark:
+  ![](pictures/thd%20compared%20to%20set.png)
+  THD's composition is tilted toward larege cap. with an average weighted market cap of $9.83 billion.
+  Industry break down shows 
+  ![](.research/pictures/../../pictures/THD%20top%20sectors.png)
+
+  In terms of asset management, there are 277 Thai equity mutual funds of which 90% are active and only 10% are passive.(referenced from  Become a Better Investor | May 29, 2020).
+
+  With above brief analysis, we can tell there are significant opportunities to create indexing products and passive investment products.
+
+  Using FactSet Screening, we found 744 stocks listed in BKK exchange, among them, 87 companies' marekt cap is greater than $1 billion, 184 greater than $250 million. Given the liquidity requirements for constructing passive investment products such as ETF, this 184 can be our initial universe. 
   
+  The industries of Thailand has clear concentration on the following sectors out of 184 base universe number:
+  Finance                   48
+  Consumer Non-Cyclicals    23
+  Utilities                 20
+  Non-Energy Materials      20
+  Consumer Cyclicals        15
+  Industrials               12
+  Healthcare                10
+
+  Thailand is still a developing country but is growing with rapid pace. According to wiki, Thailand had a 2017 GDP of US$1.236 trillion (on a purchasing power parity basis). It has advantage in exporting goods and services especially benefited from the ASEAN Free Trade Area (AFTA). More recently, Thailand is also part of Regional Comprehensive Economic Partnership(RCEP),help find a market for many of its goods and service via this free trade agreement. 
+  
+  Hence, to take full advantage of the prosperous outlook of Thailand companies, one approach is to leverage Factset GeoRev data to find companies obtaining revenues from ASEAN (Singapore, Malaysia, Philippines and Indonesia) already. 
+
+  The other angle is to create "heathcare" themed fund as Thailand's healthcare is quite advanced. 
+   
+  
+
 ## Technology Innovation
 
 ## Bond Index and ETF
@@ -140,7 +173,40 @@ Graph theory application is wide including
 * air travel (https://www.youtube.com/watch?v=cY4HiiFHO1o)
 * topological sort DAG
 * 
-  
+
+## Trie
+Trie data structure comes from the word "Retrieval". Unlike structures such as linked list, heap, stack, binary tree etc, Trie is created to sort words.  
+Usage of Trie is commonly known such as autocomplete feature in searching field, simple letters retrieved a whole set of similar words. 
+
+For a pair of fly | 6, instead of applying simple hash key | value pair, in Trie, you use a stack of 26 letter composed array and extend node by node downstream until it hits and end, then allot the value here is 6. Once it hit the value, the word is complete.
+![](pictures/trie%20structure%20illustration%20of%20Fly%206.png)
+
+With this structure, it's easy to do search, insert, delete a word. Back to Google searching example again, here is the snippet to accomplish "prefix word autocomplete" searching
+```
+class Trie(object):
+    
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.children = [None]*26
+        self.isEndofWord = False
+
+    def insert(self, word):
+        """
+        Inserts a word into the trie.
+        :type word:str
+        :rtype: None
+        """
+        curr = self
+        for in in word:
+            index = ord[i]-ord('a')
+            if curr.children[index] == None:
+                curr.children[index]=Trie()
+            curr = curr.children[index]
+        curr.isEndofWord=True
+
+
 ## Binary Tree
 Construction of binary tree (from https://www.youtube.com/watch?v=GSbLeELeEGM&list=PLTd6ceoshprdS7HVI-Yus4rAHtrqNzH0j&index=13 channel name is computer science)
 Searching binary tree basically is following the same steps of contructing a binary tree to check if a value exists or not
@@ -278,6 +344,23 @@ computer graphics
 
 - graphs - rubik's cube
   grapth algorithm by Tushar
+  - topological sort graph algo
+  - dijkstra's algo single source
+  - prim's algo minimum spanning tree graph algo
+  - Kruskal's algo mnimum spanning tree graph algo
+  - Disjoing sets using union by rank and path compression graph algo
+  - Traveling salesman problem dynamic programing held-karp
+  - Bellman-Ford Algo single source shortest path graph algo
+  - Strongly connected components Kosaraju's algo graph algo
+  - Floyd Warshall Algo All pair shortest path graph algo
+  - Detect Cycle in Directed Graph Algo
+  - Ford Fukerson Algo Edmonds Karp Algo for Max Flow
+  - Cycle in Undirected Graph Graph Algo
+  - Articulation Points 
+  - Johnson's Algo - all simple cycles in directed graph
+
+
+
   prerequisite knowledge - binary heap 
   - computer logic
   ![](pictures/exclusive%20or%20logic.png)
@@ -427,7 +510,8 @@ Rings: an algebraic view on modular arithmetic
   - Singular value decomposition(SVD)
 
 
-  ### Spark Apache 
+  ### Apache Spark
+  
 
   1. Another course which applies KNN, nearest neighbor ()
 
@@ -446,6 +530,8 @@ Rings: an algebraic view on modular arithmetic
     * IDF - inverse document frequency
     * log(no of documents in teh a corpose/no of documents that contain the term) 
     * TF-IDF
+    the concept of TF-IDF is actually straightforward illustrated as below
+    ![](.research/pictures/../../pictures/tf-idf%20.png)
     * 
 
   ### upgrade from similar companies to related companies
@@ -453,9 +539,36 @@ Rings: an algebraic view on modular arithmetic
   - The actual complex problem is to identify "related" companies that are inconspicous. For example, Uber and Lyft are not typical taxi companies but still allocated as such, Amazon and Pingduoduo are not in conventional retailing business but they are mapped to be peers to Macy's or Walmart. We need to come up with additional dimensions to define or depict these new relatedness.
     - In above two examples, we can single out the layer or dimension of "infrastructure technology"; 
     - EV concept can be employed by conventional car manufacturers. This layer of "technology" is similar to above item but worth listing our seperately as we can apply a systematic NLP sort of approach to identify them;
-    - For companies founded by same people such as Fiveer (crowdsourcing labor) and Lemonade (insurance), that's another layer;
-    - Common layers such as location, capital, number of employees are also considered.
+
+    > refer to this systematic course from Derek https://www.linkedin.com/learning/advanced-nlp-with-python-for-machine-learning/leveraging-the-power-of-messy-text-data?u=88123954)
+    The essence of NLP is to find a way to mathmatically represent sementic or textual information.
+      - TF-IDF
+      - word2vec
+      - doc2vec
+      - Recurrent Neural Network
+    Andrew Ng's explanation is superb (https://www.youtube.com/watch?v=jQTuRnjJzBU&t=137s)
+    1. word embeddings 
+    ![word embeddings](pictures/feature%20representation%20of%20word%20beddings.png)
+    The features such as gender, royal, age, food etc forms multiple dimensions to define a word such as Man, which is embedded in the abstract dimensional space and can be mathmatically calculated.
+    Embeding Matrix looks like
+    ![](pictures/embedding%20matrix.png)
+    instead of conducting matrix matrix multiplication composed of mainly zeros, we should use specialized function such as Embedding layer in Keras to look up an embedding efficiently. 
+    Input context words to predict target word, using simpler context word approach "word2vec"
+    - skip-grams
+    ![](pictures/skip-grams.png)
+    downside is the computational cost is too high
+    one way to speed up is to apply hierarchial softmax classification
+    - A more effective way to speed up is negative sampling, one positive example such as "orange juice", find K negative examples for softmax logistic regression. How do you sample these negative examples, one thing is to sample according to empirical frequency, or uniformly random, both has disadvantages. The author taks heuristic sample meaning some where in between the above two.
+    - Next, more simple algorithm in NLP community is GloVe word vectors (global vectors for GloVe)
+  
+  
+  - For companies founded by same people such as Fiveer (crowdsourcing labor) and Lemonade (insurance), that's another layer;
+  - Common layers such as location, capital, number of employees are also considered.
  
+  ### Broaden to the concept of "comprehensive company profiling" for expanded clients such as insuracen, investment banking, credit analysis...
+
+  ## That means more layers/dimensions should be introduced, among which, the number one of course if the underlying text mining, the rest extends on credit score, debt status, accounting numbers etc.
+
 
 
 ## Interesting topic by Erik Demaine on Geometric Folding Algorithms 

@@ -2,6 +2,113 @@
 
 ## Industry Arena of PDD - Internet Department Store
 
+What’s unique about this company is that the founder has following Amazon’s CEO Jeff Bezos, issuing a letter to the shareholders each year. This is the second/2020 letter:
+
+What time?
+
+In February, the world learned a new word, “COVID-19”, which upended our lives. As I write this, half of the world remains confined at home, waiting for the tiny virus that causes COVID-19 to leave us. During the early days of the outbreak, as we waited in solidarity, we eagerly hoped to return to normal. But as the world has been put on hold week after week, we start to forget time.
+
+We cannot help but ask ourselves, what is the time we are in now and what is time?
+
+We are in a time of crisis – of division, misinformation, and chaos. The virus has caused countless conflicts and contrasts as we watch the news around us and worldwide. It is an unprecedented time to most of us. Yet if we put it in the context of the human history, it might just be a normal incident, a drop in the ocean.
+
+This virus is a messenger by Mother Nature. Out of self-protection and preservation, our bodies desperately fought it using all the strength and energy available. Soon enough, the war against this seemingly unstoppable virus extended from our own bodies to the broader organisms that make up our society (if we see every institution as a living organism made up of people and relationships with a mission and purpose). Companies, governments, countries, big and small, are all scrambling in their own ways to combat this life-threatening virus. In these attempts, we possibly have unintentionally introduced more damage to ourselves.
+
+These all started with an almost invisible virus, a tiny messenger carrying some information (RNA) and a negligible amount of energy that, independent of a host, cannot even replicate. It is in stark contrast with nuclear threat, the power we feared for decades. Which is more capable of greater and more prolonged damage to our human society then – a mushroom cloud representing massive destructive energy, or a “messenger” with virtually no energy?
+
+We cannot help but wonder if this is a lesson purposefully delivered, a punishment, a redemption, or simple irony? No matter what it is, it is surreal to me.
+
+Time for new
+
+When Einstein wrote down his famous E = MC2, he elegantly (in some sense also arrogantly) depicted a physical world in his mind. However, what he did not explain in his theory of relativity is the relationship between the human mind and the physical world, nor the relationship between energy and information.
+
+Today, in this bizarre time, millions of people are staying at home, physically cut off from their families and friends. Yet we are connected and unified in spirit through shared sentiment, which in turn affects the physical world. The boundaries between the virtual and physical worlds are unprecedentedly blurred, and we are beginning to see (not just envision) a new world. In this new world, the phrase “virtual reality” is obsolete. Reality has become virtual and virtual has become part of reality. Similarly, the distinction between humanity’s physical needs and spiritual needs is also becoming vague.
+
+When this tiny virus was dropped into our world, it acted just like a catalyst in a test tube, accelerating the formation of a whole new world. Inevitably, some dimensions of the previous world are being restructured, some rules are being rewritten. The impact of this sweeping force will fundamentally and permanently change the world we are in now. Just like what I explained in the previous shareholder letters about PDD’s formation, new models are bound to emerge and grow in a whole new setup. We are indeed seeing the phasing out of some as new ones emerge. It is the time of reestablishment.
+
+Human beings have long used reason to try to understand and control the world. In many cases, we succeeded, for example, science. In science, we strive to detach ourselves from the physical world we are in, to watch it as if we are a higher being “objectively” observing, understanding, and defining the world into a finite number of equations. In this framework, time is a reversible parameter in the equation -t = (-)t. It is merely a parameter in an equation to describe a predetermined trajectory of an object.
+
+However, when an almost invisible virus awoken us to the reality that we are not above the world, but just a negligible part of the world to be observed, the only thing we can do is to sit still and let time carry its course. We then realize time is not really a parameter in an equation, but an irreversible vector. It is a silent and relentless directional force driving everything we see and feel. It effortlessly creates asymmetry, irreversibility and mortality, no matter how stubbornly and desperately we yearn for symmetry and immortality.
+
+While the first law of thermodynamics (∆U = Q-W) gives us a sense of control and certainty, the second law (∆S ≥ 0) humbles us to acknowledge the unknown beyond just force and mass we used to define our physical world. Entropy (S) also relates to information. I am not sure if entropy relates to the spiritual world, but it does help us feel and comprehend time. Again, it is not a reversible parameter, but a silent and irreversible driving force beyond and behind both the physical and the spiritual world.2.Time, crowd and uncertainty
+
+When Newton revealed F = M(dV/dT), it gave us a delusive sense of control, or at least it allowed our wishful thinking that we can finally harness force. We no longer have to worry, because every object has a calculable trajectory determined by its position, mass, velocity and force. We assume each object’s current state fully encompasses and explains its past and that each object is independent. With that, large number of interactions among large number of objects over time would increase complexity and appear chaotic and uncertain, hence probabilistic. It seems that time has created this chaos and uncertainty. And probability is just a statistical aggregation of the trajectories of a large number of objects.
+
+However, when we are isolated at home, waiting with anxiety and unsettling emotions, we start to doubt whether the notion of each object being independent is really a valid assumption in our attempt to understand and explain the world. In our yearning for certainty, we have conveniently chosen to accept some assumptions, such as independence among each object, that can help us explain the world. Our desire for certainty is so strong that we start believing it is truth.
+
+But what if probability is a fundamental feature of each object, rather than a result of statistical aggregation? What if the large number of objects is intrinsically intertwined and interrelated? Just like our human society, no matter how independent each individual is, we are intrinsically connected both physically and spiritually. And these connections define who we are and our existence.
+
+Because of these connections, the divide-and-conquer approach is no longer effective to reduce uncertainty. Instead, we see the large number of interactions among individuals over time becoming a force that brings order and certainty to the society. Again, we feel the force and magic of time.
+
+Seize the time
+
+When COVID-19 swept the earth, every organism was confronted with the brutal reality of Mother Nature. Some of us who are relatively young cannot help but to feel grateful and lucky. This is not to say that we see an opportunity to take advantage of during the crisis. In fact, I despise the saying “don’t waste a crisis”. A crisis is a crisis. Nobody can come out as a winner in the midst of a catastrophe. Any wishful thinking to capture the “opportunities” (or exploiting loopholes) to benefit oneself seems foolish in the face of time. It is akin to a presumptuous gambler trying to outsmart time at a casino.
+
+Instead, we feel the urge to work even harder. Because we, more than ever, understand and appreciate how precious youth is. More than ever, we realize that we now have our duty to fulfil. We need to demonstrate that our generation is innovative and different, that in this new world, new species and new creatures are bound to emerge and grow. Mother Nature will flourish and progress, regardless of any individual’s will. Understanding these rules of nature does not make us feel superior, nor does it give us the power to rule and order. On the contrary, it humbles us to admit that we are just part of a natural evolution of the world. One poet captured it all: “As I silently look back, all the sorrows and joy, all the twists and turns, of life, vanished like sands in the desert. And now I know, all I have accomplished, is just a part of life.”
+
+With this perspective and in this new world, we feel humble and calm. We are tremendously grateful for our precious youth, and we feel the weight of our duty. As a result, we will be more than ever committed to investing in the future, and to be part of the driving force to the new world we are seeing. The journey has only started.
+
+This is our Carpe Diem. This is our C’est La Vie.
+
+Below is the first letter he wrote in 2019(2018 fiscal year):
+
+Pinduoduo is not a conventional company. We founded Pinduoduo when the China market accepted the status quo of the existing e-commerce landscape and thought its formative phase had come to an end. Within three years, Pinduoduo has attracted over 300 million active buyers and over 1 million merchants through a new shopping format and experience. This exponential growth shows unlimited potential of our platform. As our three-year-old platform is still burgeoning, we know we face many obvious challenges and uncertainties ahead. Hence, why are we bringing Pinduoduo into the ebbs and flows of the capital markets so soon? We’d appreciate you hearing our thoughts in this letter.
+
+●    We think the e-commerce business is closely tied with social impacts and responsibilities, and therefore its growth and value should be shared with the public;
+
+●    We believe in the tremendous potential of our platform; therefore, if we take a long-term view, there is no difference for our listing in three years, five years or longer. On the contrary, with public scrutiny and regulatory supervision, we may grow better and stronger; and
+
+●    We envision Pinduoduo to be an organization that reports to the public. It should create value for the public, rather than being a show-off trophy for a few or carrying too much personal color. We want it to be an independent organization that brings value to the society with its unique organizational structure and corporate culture. Most importantly, it should continue to strive to better itself.
+
+Now as the founder, I would like to give you more color on my observation and vision for Pinduoduo so as to give you a more concrete understanding of the company you are investing into.
+
+What does Pinduoduo do?
+
+●    Pinduoduo dedicates itself to creating a commingled “space” between cyberspace and physical space, where users can find the most value-for-money merchandise that meet their different needs and derive happiness;
+
+●    Pinduoduo leverages a platform and an ecosystem comprised of hundreds of millions of users, merchants, platform management personnel/operators and platform infrastructure/service providers; while each player is interdependent with one another, all of them evolve and improve as they constantly try to balance cost-effectiveness, efficiency, user experience and satisfaction;
+
+●    Pinduoduo’s survival depends on the value it creates for its users; I hope our team wakes up feeling anxious every day, never because of share price volatilities, but because of their constant fear of users departing if we are unable to anticipate and meet users’ changing needs; and
+
+●    Pinduoduo is dedicated to investing in the future and will always focus on the long term. It might appear too aggressive or too conservative at times. However, it always follows the basic and simple principle—growing its long term intrinsic value.
+
+Company Value
+
+Pinduoduo’s core value is “本分” (Ben Fen). It is difficult to express it perfectly in English, but it essentially means to adhere firmly to one’s own duties and principles. There are several layers of meaning here:
+
+●    Be honest and trustworthy;
+
+●    Discharge our own duties and responsibilities regardless of others’ conduct;
+
+●    Insulate our minds from outside pressures so that we can focus on the very simple basics of what we should be doing;
+
+●    Never take advantage of others even when we are in a position to do so;
+
+●    Self-reflect and take responsibilities when problems arise instead of blaming others.
+
+Specifically for Pinduoduo, the management’s 本分 (Ben Fen) is to relentlessly focus on value creation for our consumers. We may not always be understood, but we always do things out of goodwill and do no evil.
+
+Going forward
+
+In the past three years, Pinduoduo has established and promoted a new e-commerce concept and experience of “team purchase” (or “拼”, “pin”). We can reasonably expect that it would evolve into a variety of “pin” formats. We also hope that other innovative formats for different user scenarios will be created just like how we have created “pin” today.
+
+If you close your eyes and visualize the next stage for Pinduoduo, it would be an exemplification of a multi-dimensional space, seamlessly integrating cyberspace and the physical space. It would be a combination of “Costco” and “Disneyland” (value-for-money and entertainment combined), driven by a distributed network of intelligence agents (versus the popular super-brain-like centralized AI system). It not only matches information efficiently, but also constantly puts the social interactions of the universe into consideration to make the entire experience more enjoyable.
+
+As part of the process to constantly meet users’ needs, we are highly aligned to be the driving force to improve the efficiency and quality of the supply chain. One good example would be the agricultural industry. China has relatively less arable land per capita given its population and landscape. This is different from countries like the United States, where large-scale farms are prevalent, and the production and transportation of agricultural products could be highly industrialized. We find “pin” an effective solution to aggregate consumer demand, match them with batches of agricultural produce, and mobilize China’s well-penetrated and affordable logistics capability to have perishable and fresh produce shipped directly from farms to users and bypass multiple layers of distribution. This not only enhances user experience, but more importantly, helps to turn small scale agriculture production of different quality, variety, and volume into a semi-customized batch processing mechanism. It lowers the unnecessary costs of agricultural consumption and potentially makes small scale customized services viable. The social impact and value to our society would far exceed our business success or the perceived valuation of the company. We are excited by the small impact we see today, and think this would be a trend even beyond agriculture.
+
+Appreciation for our investors
+
+We are grateful to those who are willing to invest in Pinduoduo after reading through the utopian ideas above. It is not easy to take the leap of faith believing in such an unconventional company, which strives to meet both economic and social needs of users, and to make a positive impact to the society. The pursuit and focus of our long-term vision and intrinsic value may not always translate into near-term profits. Instead, we hope to show you the true colors of our company no matter how bumpy or rough the numbers may seem to be. We ask you to ride the journey with us for the long term. We believe it will be wonderful.
+
+So, what should you expect from Pinduoduo as an investor?
+
+First of all, you can reasonably believe that we are far from the best we could achieve. In fact, we are probably at our most rudimentary level of services now if we look forward in 10 years’ time. Yet, many of our users have chosen to believe in us. We are encouraged and have every reason to believe that as we work hard day after day to improve our services, more and more users will stick with us, believe in us.
+
+Secondly, you should expect a team with passion that is trustworthy and always focuses on serving users and our company’s intrinsic value. We have the courage and the ability to invest in long-term opportunities.
+
+Pinduoduo, as a growing organization, will always dedicate itself to do the right things, to create value for our society, and to make this world a better and happier place.
+
+
 The very first step in looking into this company is to understand where it is competing. To put things into perspective, it is playing head-on with the strongest players such as Amazon and Alibaba. 
 ![internet department store](https://github.com/znaixian/Blogs/blob/master/Industry/media/department%20store%20general%20merchandise%20retail.png)
 
@@ -152,3 +259,5 @@ It's becasue of the recent earnings annoucement exceeded expectation. According 
 QuestMobile公布的数据显示，在第三季度拼多多用户总时长达到5310亿分钟，较去年同比增长101%，占据中国所有电商服务平台用户总时长的41%，位居三大电商平台之首。
 
 “如果要总结这位新CEO的第一个季度，我的感觉是，他为拼多多找到了最合适的模式应用场景，牢牢地为这家新电商在中国商业中扎下了根”，
+
+In the following, I will refer back to the book writen by Shihan with more details.
