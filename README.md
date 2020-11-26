@@ -77,7 +77,7 @@
   Hence, to take full advantage of the prosperous outlook of Thailand companies, one approach is to leverage Factset GeoRev data to find companies obtaining revenues from ASEAN (Singapore, Malaysia, Philippines and Indonesia) already. 
 
   The other angle is to create "heathcare" themed fund as Thailand's healthcare is quite advanced. 
-   
+
   
 
 ## Technology Innovation
@@ -205,7 +205,7 @@ class Trie(object):
                 curr.children[index]=Trie()
             curr = curr.children[index]
         curr.isEndofWord=True
-
+```
 
 ## Binary Tree
 Construction of binary tree (from https://www.youtube.com/watch?v=GSbLeELeEGM&list=PLTd6ceoshprdS7HVI-Yus4rAHtrqNzH0j&index=13 channel name is computer science)
@@ -516,7 +516,114 @@ Rings: an algebraic view on modular arithmetic
   1. Another course which applies KNN, nearest neighbor ()
 
 
+  ## NLP by Andrew Ng (https://www.youtube.com/watch?v=n1l-9lIMW7E&list=PLpFsSf5Dm-pd5d3rjNtIXUHT-v7bdaEIe&index=2)
+  What is the applications of supervised learning
+  ![](pictures/supervised%20learning%20applications.png)
+  audio temporal sequence data we often use RNN, language translation often RNN, photo tagging use convolutional neural network(CNN), realestate online adverstising we use standard Neural network.
 
+  Activation function using Relu instead of sigmoid made the gradient descent work much faster, this algorithm innovation helps computation much more faster or efficient. Iterative cycle on the base of large set of data, so the speed is essential to do at least fast experimenting on practical sense. 
+
+  ### binary classification problem
+  Logistic regression, not commonly known linear regression, is for binary classificaiotn problem. 
+  Using cat image identificaiton as example, we define feature vectors is composed of 64X64x3(RGB three primary color scheme)=12288 feature vectors, or nx. 
+  first is to lay out the notation clearly, note if run python shape, the output is nx feature vectors, m columns.
+  ![](pictures/notation%20of%20input%20matrix%20.png)
+
+  Define loss (for single instance) and cost function (collectively across the whole training set)
+  ![](pictures/logistic%20regression%20loss%20and%20cost%20function.png)
+  The goal is to find the optimal w and b (weight and bias parameters) to minimize the cost function by gradient descent iterations.
+
+  Further digging on logistic regression cost function of the design ingenuity
+  ![](.research/pictures/../../pictures/logistic%20regression%20cost%20function%20further.png)
+
+  ### neural network
+  First, be very familiar with the connotation
+  ![](pictures/connotation.png)
+
+  Vanishing/exploding gradients problem manifest in deep networks, the partial solution is to initialize the weights, take a sinle neuron as an example
+  ![](pictures/single%20neuron%20example.png)
+  Then apply this approximation to do gradient checking for potential bugs
+  ![](pictures/gradient%20checking%20potential%20bugs.png)
+
+  On practical level, do not use gradient checking in traiing only to debug, if the algo fails grad check, loot at components to try to identify bug. And don't use dropout, after chceking, turn on dropout again, and don't forget regularization:
+  ![](pictures/regularization%20part%20in%20cost%20function.png)
+  
+  In big data era, which is particularily fitful for neuron network, there is a problem of computing complexity if everything is done in one hit, hence, there is this "mini batch gradient desecent" approach, which taking apart the whole m examples to say m/1000 batches, run each in a pass through then average to get cost or loss funtion J. Note in NN, there is this notion called epoch, which basically is a pass-through the training set. In mini-batch approach, there could be multiple epochs within one mini-batch gradient descent, accomplished by applying for loop. 
+ 
+  Choosing mini-batch size has two extremes, one is direct batch gradient descend or stochastic gradient descent, where every example is own mini-batch. One batch GD is very time consuming, and stochastic GD is very low-efficient, so something in between is ideal in fast learning.
+
+  Exponentially weighted averages, Vt = beta*Vt-1 + (1-beta)Thetat, which is approximately average over 1/(1-beta)days temperature. It's a key component of several optimization algorithms. Usually beta set to be .9, it takes about 10 days/iterations to get to 1/e, or less than one third of the weight one. Bias correction in exponentially weighted average. There is algo called Gradient descent with momentum, to unpack, it's intuitively understandable via the following diagram:
+  ![](pictures/gd%20with%20momentum.png)
+
+  RMSprop algo root mean square prop also can speed up gradient descent, avoid huge oscillation, basically you want to slow down the vertical direction, but stride wider on horizontal. Adam optimization algorithm, unlike most other algos that do not generalize that well, over time, stand out as useful. 
+
+  Why you wan to implement "learning rate decay", mini-batch gradient descent, it's wandering around might cause never converge in the end, if you were to slowerly slowly decay the learning rate, steps taken are smallers, hence the oscillation is smaller, so it can finally converge. Recall one epoch is one pass-through the data,  if we apply the following formula, on each epoch, a decaying different alpha is applied.
+  ![](pictures/learning%20rate%20decay.png)
+
+  So there are multiple ways of hyperparameter setting, ranging from alpha, beta1, beta2, epislon, number of layers, number of hidden units, learning rate decay and mini-batch size,  so we'd have a systematic way to process tuning. Some are more important such as alpha - learning rate, then comes beta (weighting schema) and mini-batch size. 
+
+  Using an appropriate scale to pick hyperparameters, first you choose at random, then applied maybe logirhized random zones instead of linear evening out. 
+
+  Batch normalization adding batch norm to a network
+  ![](pictures/batch%20norm%20to%20a%20network.png)
+  Why does Batch Norm work? Covariance shift, if the distribution of x changes, you need to retrain with more comprehensive datasets. Batch norm set the parameters of beta and gama firm ground to stand on. It speeds up but may have unintended regularization problem. 
+
+  We'll need a multiple classifier for multiple features, then the tool is softmax regression.
+  ![](pictures/softmax%20regression%20for%20.png)
+
+  Further, to understand softmax, see the equations below
+  ![](pictures/softmax%20understanding.png)
+
+  Softmax regression generalizes logistic regression to C instead of 2 classes, if c is 2, the output is two numbers only, since they add up to 1, so the other value is redundant. 
+
+  The problem of local optima, because of there are a greate number of dimensions or features, the gradient descent doesn't work it's way down to the bottom of convex as you wish, more probably, it will be like a saddle shape. 
+
+  TensorFlow is a framework of deep learning, here is a snippet to minimize a function. 
+  ```
+  import tensorflow as tf
+  coefficients = np.array([[1.],[-20.],[100]])
+  w= tf.Variable(0,dtype=tf.float32)
+  x= tf.placeholder(tf.float32, [3,1])
+  # cost = w**2 - 10*w + 25
+  # cost = x[0][0]*w**2 + x[1][0]*w + x[2][0]
+  train = tf.train.GradientDescentOptimizer(0.01).minimize(cost)
+  init = tf.global_variabe_initializer()
+
+  session = tf.Session()
+  session.run(init)
+  print(session.run(w))
+
+  # session.run(train, feed_dict={x:coefficients})
+  for i in range(1000):
+      session.run(train, feed_direct={x:coefficients})
+  print(session.run(w))
+
+  #idiomaticly replacing these three lines with
+  with tf.Session() as session:
+  session.run(init)
+  print(sessionrun(w)
+  ```
+
+  ### ML strategies
+  Orthogonalization is the principle so we can tune each knob seperately
+  Using a single number evaluation metric, first, we need to grasp the two major metrics, one is the precision which is straightforward, the other is recall rate, which means of all the actual objects, say cat recognition classifier, what is the percentage of correctly recognized. 
+  Sometime the two metrics contradict each other, so we developed a third compbinational metric called F1 score, which is the harmonic average of the two. 
+  How to set up an optimizing and satisfying single number metric?
+  If there are accuracy and runnig time in cosideration, as long as the runnign time is less than 100ms, we call it satisfying, under which, we want to optimize the accuracy. 
+
+  Avoidable Bias, human level error as a proxy for Bayes error (the maximum one can achieve), difference between human error and training error to be avoidable bias, one can aim to reduce, so we can use this terminology to measure. 
+
+  End-to-end deep learning, take speech recognition as an example, from audio to transcript, used to carry out in different stages, but end-to-end bypassing these intermediate steps and reach to the end transcript directly. cons of end-to-end learning requirement a large amount of data, exclude potentially useful hand-designed components.
+
+  Covolutional Neural Network involves concepts of edge detectio, filter (withe operation sign looking like multiplication but actually means convolute) padding, strided, volumes, pooling, max poolings. 
+  An example is
+  ![](pictures/nn%20example.png)
+
+  Classical networks 
+  LeNet-5
+  ![](pictures/LeNet-5.png)
+
+  Resnets to train very very deep netwrks, it's residual block. Why ResNet works? 
 
   * document similarity document distance 
     * basic concept can be visualized as below
@@ -578,7 +685,11 @@ Rings: an algebraic view on modular arithmetic
   * Python built-in algorithm from MIT 6.006 Introduction to Algorithms, Fall 2011
   understanding at this level of depth help to write efficient and fast Python codes
 
-  
+  * Python numpy broadcasting 
+  the principle is as 
+  ![](pictures/np%20broadcasting.png)
+
+
   * Python dictionary magic
   Dictionay can store the variable and grab in a constant 1 complextiy
   
