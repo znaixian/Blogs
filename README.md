@@ -624,8 +624,27 @@ Rings: an algebraic view on modular arithmetic
   ![](pictures/LeNet-5.png)
 
   Resnets to train very very deep netwrks, it's residual block. Why ResNet works? 
+  Attention model intuition, developed for machine translation, very influential paper. 
+
+  ## Tensorflow Application
+  apparel recognition
+  mnist numeric recognition
+  movie review positive and negative
+
+  ### reference real life case studies
+  - GE Healthcare to assist MRI operator
+  - Liulishuo to evaluate student 
+  - Tweeter ranking tweets with Tensorflow (highlight the benefits of tensorflow compared to pytorch, specifically split network, warm start and thriving econsysmtem of tensorflow) 
+  - Coca-Cola use ML to enable mobile proof-of-purchase
+  - Airbnb to categorize pictures
+  - Suggesting presets for image editing in VSCO
+  - Intelligent office based ML for WPS
+  
 
   * document similarity document distance 
+    * measure of document similarity
+    ![](pictures/measure%20doc%20similarity.png)
+
     * basic concept can be visualized as below
     ![doc vector cosine distance](./research/pictures/../../pictures/document%20vector%20cosine%20distance.png)
     It is an OK measurement but what if it's a lenghty document so all words shown up, modification is needed - divided with product of length of both documents
@@ -640,6 +659,10 @@ Rings: an algebraic view on modular arithmetic
     the concept of TF-IDF is actually straightforward illustrated as below
     ![](.research/pictures/../../pictures/tf-idf%20.png)
     * 
+
+  ### the concept of dimensional group
+    * simple dimensions using RBICS with Revenue to count each subsidiary company as an independed entity
+    * abstract dimensions such as hydrogen, ocean, molecular biopharm, green energy requires TEXT processing  
 
   ### upgrade from similar companies to related companies
   - Because notion of similar companies is quite straightforward using classification system. We should not over complex the problem 
